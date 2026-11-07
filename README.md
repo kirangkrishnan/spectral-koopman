@@ -69,9 +69,6 @@ python scripts/run_protocol.py vdp no_loss runs/vdp/no_loss
 python scripts/train_regressor.py vdp runs/vdp/spectral runs/vdp/regressor
 ```
 
-Variants: `spectral`, `no_loss`, `exact`, `direct`, `one_step`, `noise05`, `no_loss_noise05`, `seed2`, `seed3`.
-The seeds are the ones used in the paper, but results can still differ slightly between machines and library versions.
-
 ## License
 
 MIT
