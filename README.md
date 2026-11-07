@@ -1,10 +1,10 @@
-# spectral-koopman
+# Spectrally Consistent Feedback-Parameterized Koopman Models with Calibrated Uncertainty
 
 <p align="center">
   <img src="media/double_pendulum.gif" width="900" alt="Double pendulum on a cart balanced by the one-shot feedback and by NMPC">
 </p>
 <p align="center">
-  Double pendulum on a cart (MuJoCo): feedback with a fixed theta chosen once from the model, vs NMPC.
+  Double pendulum on a cart (MuJoCo)
   <a href="media/double_pendulum.mp4">mp4</a>
 </p>
 
