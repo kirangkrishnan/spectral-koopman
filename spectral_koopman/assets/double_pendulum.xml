@@ -1,0 +1,32 @@
+<!-- Inverted double pendulum on a cart: the geometry, masses (from geom densities), joint damping, RK4 integrator
+     and 0.01 s time step of Gymnasium's InvertedDoublePendulum, with exact gravity along -z (Gymnasium adds 1e-5 m/s^2
+     along x, which moves the equilibrium off the origin) and the rail limit widened to +-2 m (the operating guard
+     ends runs at |x| = 1.5 m, so the joint limit never acts).
+     State (x, phi1, phi2, dx, dphi1, dphi2): cart position, pole-1 angle from upright, pole-2 angle relative to
+     pole 1, and their rates. One actuator: cart force = 500 * ctrl, ctrl in [-1, 1]. -->
+<mujoco model="double_pendulum">
+  <compiler angle="radian" inertiafromgeom="true"/>
+  <default>
+    <joint damping="0.05"/>
+    <geom contype="0" conaffinity="0" friction="1 0.1 0.1" rgba="0.7 0.7 0 1"/>
+  </default>
+  <option gravity="0 0 -9.81" integrator="RK4" timestep="0.01"/>
+  <worldbody>
+    <geom name="rail" pos="0 0 0" quat="0.707 0 0.707 0" rgba="0.3 0.3 0.7 1" size="0.02 2" type="capsule"/>
+    <body name="cart" pos="0 0 0">
+      <joint axis="1 0 0" limited="true" name="slider" pos="0 0 0" range="-2 2" type="slide"/>
+      <geom name="cart" pos="0 0 0" quat="0.707 0 0.707 0" size="0.1 0.1" type="capsule"/>
+      <body name="pole" pos="0 0 0">
+        <joint axis="0 1 0" name="hinge" pos="0 0 0" type="hinge"/>
+        <geom fromto="0 0 0 0 0 0.6" name="cpole" rgba="0 0.7 0.7 1" size="0.045 0.3" type="capsule"/>
+        <body name="pole2" pos="0 0 0.6">
+          <joint axis="0 1 0" name="hinge2" pos="0 0 0" type="hinge"/>
+          <geom fromto="0 0 0 0 0 0.6" name="cpole2" rgba="0 0.7 0.7 1" size="0.045 0.3" type="capsule"/>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <motor ctrllimited="true" ctrlrange="-1 1" gear="500" joint="slider" name="slide"/>
+  </actuator>
+</mujoco>

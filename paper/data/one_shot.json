@@ -1,0 +1,2852 @@
+{
+ "vdp": {
+  "runs": [
+   {
+    "nmpc": {
+     "total_cost": 2.2957247814384445,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.3810077168029387,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.722857099661876,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 2.3994223756556647,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.8409943148989973,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.3935035741996695,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 2.8375957451732994,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 2.3810077168029387,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.722857099661876,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 2.6128994326009694,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0859742714325904,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.6129007347360638,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.085977552448191,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 2.2957247814384445,
+    "nmpc_variants_no_loss": 2.2957247814384445
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.6036730830609205,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.6474440420171301,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0092092693246562,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 0.6474440420171301,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0092092693246562,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.634988286073698,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 0.7761012417678064,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 0.6474440420171301,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0092092693246562,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 0.649093379048284,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7051530424132926,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.649093379048284,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7051530424132926,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 0.6036730830609205,
+    "nmpc_variants_no_loss": 0.6036730830609205
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.3713705847845197,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.3716597619292286,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0666705479028837,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 1.3716597619292286,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0666705479028837,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.391717964890963,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 1.8702277537665495,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 1.3716597619292286,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0666705479028837,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 1.4044171309920988,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.9479016389281898,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.4115169043692566,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.999999999999999,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 1.3713705847845197,
+    "nmpc_variants_no_loss": 1.3713705847845197
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.089259223193946,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.1688730492107722,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9580408513493985,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 1.1688730492107722,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9580408513493985,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.1684304660833753,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 1.3470682690919231,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 1.1688730492107722,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9580408513493985,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 1.1868126251233022,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7484114437634437,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.1868125419312825,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7484115720714741,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 1.089259223193946,
+    "nmpc_variants_no_loss": 1.089259223193946
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.13106961692103855,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.14673820650316946,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8655643609301822,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 0.14673820650316946,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8655643609301822,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.14592572860823597,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 0.16461795846534752,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 0.14673820650316946,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8655643609301822,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 0.14690922458695452,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0744285549922679,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.14690867848447642,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0745232916232674,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 0.13106961692103855,
+    "nmpc_variants_no_loss": 0.13106961692103855
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.36647150456856137,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.37036778807615306,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.8602090384037306,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 0.3695373876439531,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.9757336319747638,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.37185632540371794,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 0.5238958680632085,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 0.37036778807615306,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.8602090384037306,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 0.37535456892605,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6315558934253722,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.37535464496666976,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6315529585275144,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 0.36647150456856137,
+    "nmpc_variants_no_loss": 0.36647150456856137
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.3604912641523105,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.3721910701915742,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0092092693246562,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 0.3721910701915742,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0092092693246562,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.36625188450648327,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 0.49573966196034686,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 0.3721910701915742,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0092092693246562,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 0.37616402878950794,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7350776096095664,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.3761639502100043,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.735077951837912,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 0.3604912641523105,
+    "nmpc_variants_no_loss": 0.3604912641523105
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.089259223193946,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.1775431116591577,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9536014507493538,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 1.1775431116591577,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9536014507493538,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.1684304660833753,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 1.3470682690919231,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 1.1775431116591577,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9536014507493538,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 1.1801690477318985,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7896608368518119,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.1801698027566585,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7897100796130938,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 1.089259223193946,
+    "nmpc_variants_no_loss": 1.089259223193946
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.406398130697534,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.430936918678844,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.539875939274768,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 1.4309366953651201,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.539853184487126,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.4255955363571908,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 1.8458081208744348,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 1.430936918678844,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.539875939274768,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 1.434443701112362,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.9607585772670149,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.434441867947808,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.9607559909481898,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 1.406398130697534,
+    "nmpc_variants_no_loss": 1.406398130697534
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.13106961692103855,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.14673820650316946,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8655643609301822,
+     "feasible_share_of_bank": 0.813
+    },
+    "plain": {
+     "total_cost": 0.14673820650316946,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8655643609301822,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.14592572860823597,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0014365033513042
+    },
+    "centroid": {
+     "total_cost": 0.16461795846534752,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9359764142965119
+    },
+    "rhat_only": {
+     "total_cost": 0.14673820650316946,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8655643609301822,
+     "feasible_share_of_bank": 0.823
+    },
+    "no_loss_bound": {
+     "total_cost": 0.14420725698856476,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.6242489769568598,
+     "feasible_share_of_bank": 0.6776666666666666
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.14420725698856476,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.6242489769568598,
+     "feasible_share_of_bank": 0.784
+    },
+    "nmpc_variants": 0.13106961692103855,
+    "nmpc_variants_no_loss": 0.13106961692103855
+   }
+  ],
+  "timing": {
+   "selection_seconds": 0.9537146499933442,
+   "nmpc_seconds": 1.878168932031258,
+   "nmpc_mean_ms": 4.695422330078145,
+   "nmpc_max_ms": 8.596022002166137
+  }
+ },
+ "arm": {
+  "runs": [
+   {
+    "nmpc": {
+     "total_cost": 22.71480917356927,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 28.66255903770598,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 89.24743200380377,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.0502423185139916,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 28.66255903770598,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 66.60670960051506,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 29.545816494514266,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.20476811347418516,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 27.252443544286276,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4204205113874635,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 33.215316456618865,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.09105288241624275,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 22.71480917356927,
+    "nmpc_variants_no_loss": 22.71480917356927
+   },
+   {
+    "nmpc": {
+     "total_cost": 12.886542427213497,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 18.663018177940003,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3705607065356322,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 20.087379550931306,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.12690482106752415,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 18.94587877316096,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 40.058495186566006,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 18.663018177940003,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3705607065356322,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 17.3649450579814,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6241328016419699,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 17.365002511836572,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6241346096335292,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 12.886542427213497,
+    "nmpc_variants_no_loss": 12.886542427213497
+   },
+   {
+    "nmpc": {
+     "total_cost": 16.968512087632217,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 21.621731346040015,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 173.16235257467815,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.4014864314233927,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 21.621731346040015,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 38.67430765686809,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 21.520940831509392,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.20476811347418516,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 20.887485172042627,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.42051455339632465,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 23.999856146598813,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.023109734136156856,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 16.968512087632217,
+    "nmpc_variants_no_loss": 16.968512087632217
+   },
+   {
+    "nmpc": {
+     "total_cost": 12.886542427213492,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 18.663018177940003,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3705607065356322,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 20.087379550931306,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.12690482106752415,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 18.94587877316096,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 40.058495186566006,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 18.663018177940003,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3705607065356322,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 17.616438679090958,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4529580459619891,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 17.628664212306916,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.44943452443519166,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 12.886542427213492,
+    "nmpc_variants_no_loss": 12.886542427213492
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.9280582888394872,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.1665748065949244,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.23033143142102913,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 2.1174407845229366,
+     "valid": true,
+     "settled": true,
+     "true_rate": 0.18434341815648034,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.846388528574571,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 4.313980601788245,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 2.2942058845369573,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.33850859385992077,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 2.16591352676185,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4768053500941614,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.16591352676185,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4768053500941614,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 0.9280582888394872,
+    "nmpc_variants_no_loss": 0.9280582888394872
+   },
+   {
+    "nmpc": {
+     "total_cost": 8.030901636345911,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 13.866240949333207,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.33850859385992077,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 13.866240949333207,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.33850859385992077,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 14.069964139523533,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 35.57383544141964,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 13.866240949333207,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.33850859385992077,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 12.225815463708457,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5760567777358766,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 12.225815463708457,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5760567777358766,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 8.030901636345911,
+    "nmpc_variants_no_loss": 8.030901636345911
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.772203442706327,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.7423325008030894,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4692220227709991,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 524.399585962448,
+     "valid": true,
+     "settled": false,
+     "true_rate": 1.0335368051773048,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 3.8932648411304025,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 17.990338547599,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 2.7423325008030894,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4692220227709991,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 1.7733046679991802,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7471483511206023,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.173424041165989,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6345599345478014,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 0.772203442706327,
+    "nmpc_variants_no_loss": 0.772203442706327
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.7616706221285001,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 3.539117669177193,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.29807629641534256,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 105.21470529950639,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.15135666997035363,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 4.313604956863348,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 15.402983290474277,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 3.539117669177193,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.29807629641534256,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 3.1635552239150586,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.2329742367793413,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.869357972550325,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.23638322462827607,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 1.7616706221285001,
+    "nmpc_variants_no_loss": 1.7616706221285001
+   },
+   {
+    "nmpc": {
+     "total_cost": 2.944286110162713,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 5.391636893896742,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5508651024448274,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 285.93037285707896,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.7295514927508442,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 6.260325344850415,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 19.947529847239707,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 5.286675554282908,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5681373063676348,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 4.9376906680929356,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3342399383303852,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 4.58625089327671,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3882795113591348,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 2.944286110162713,
+    "nmpc_variants_no_loss": 2.944286110162713
+   },
+   {
+    "nmpc": {
+     "total_cost": 4.054275859211712,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 8.474698413018094,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433,
+     "feasible_share_of_bank": 0.129
+    },
+    "plain": {
+     "total_cost": 8.474698413018094,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 8.474698413018094,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433
+    },
+    "centroid": {
+     "total_cost": 28.373298697935923,
+     "valid": true,
+     "settled": false,
+     "true_rate": -0.011456968406925025
+    },
+    "rhat_only": {
+     "total_cost": 8.474698413018094,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.28383863389010433,
+     "feasible_share_of_bank": 0.18
+    },
+    "no_loss_bound": {
+     "total_cost": 7.452673134769476,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4363470003107704,
+     "feasible_share_of_bank": 0.07466666666666667
+    },
+    "no_loss_rhat": {
+     "total_cost": 7.969924739875248,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.23621324595140406,
+     "feasible_share_of_bank": 0.28
+    },
+    "nmpc_variants": 4.054275859211712,
+    "nmpc_variants_no_loss": 4.054275859211712
+   }
+  ],
+  "timing": {
+   "selection_seconds": 0.7915408669941826,
+   "nmpc_seconds": 5.628850996246911,
+   "nmpc_mean_ms": 14.072127490617277,
+   "nmpc_max_ms": 200.5135889921803
+  }
+ },
+ "cartpole": {
+  "runs": [
+   {
+    "nmpc": {
+     "total_cost": 17.12382089550385,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 17.381174654261077,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7323708259037469,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 17.645283479399648,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.35803210115514383,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 18.530078351806633,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": null,
+     "valid": false,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 17.645283479399648,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.35803210115514383,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 18.630964244408766,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.36993762425092763,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 17.165150736009704,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.665972863566535,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 17.12382089550385,
+    "nmpc_variants_no_loss": 17.12382089550385
+   },
+   {
+    "nmpc": {
+     "total_cost": 2.8365008531022418,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 3.234660115328803,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.680745238419588,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 3.2092587879182255,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5160654207972036,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 3.3046751946975483,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 188.71708032990898,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 3.209774865298539,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5149005741892015,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 3.167670077695448,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4181050666454386,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 3.046604633554745,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7647686262273607,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 2.8365008531022418,
+    "nmpc_variants_no_loss": 2.8365008531022418
+   },
+   {
+    "nmpc": {
+     "total_cost": 5.970418963203166,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 6.731468466471577,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7675182805428543,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 7.099308127293245,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4378129820697747,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 6.9987216494006566,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 366.04993149991355,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 7.040422028372437,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5490300131576361,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 6.8738538839034975,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6280779546124097,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 6.9626585898123725,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3957564934382878,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 5.970418963203166,
+    "nmpc_variants_no_loss": 5.970418963203166
+   },
+   {
+    "nmpc": {
+     "total_cost": 8.30919406483833,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 8.916718964562644,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6592312033269054,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 8.916856508525234,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6590818781465846,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 9.501058929398901,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": null,
+     "valid": false,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 8.915958789900554,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6574705300217774,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 8.96111809840266,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.034011861692452,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 9.44834066862862,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.35427299624997277,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 8.30919406483833,
+    "nmpc_variants_no_loss": 8.30919406483833
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.28662423225069994,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.289068939963752,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7249551772742109,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": null,
+     "valid": false,
+     "settled": false,
+     "true_rate": 0.836960720521097,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.29113930231354396,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 23.74160762594632,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 0.2890169539886548,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7257985104711893,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 0.2894088524205119,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.809202404253366,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 5.371626221137483,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.21726988212314785,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 0.28662423225069994,
+    "nmpc_variants_no_loss": 0.28662423225069994
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.5181974273798706,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.8159113234790287,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.2485306920953042,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 1.8138071608248176,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.2492848207622281,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.684443344333457,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 274.70166987951274,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 1.8159113234790287,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.2485306920953042,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 1.5698384989129293,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6101949063489048,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.7269587046588968,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.27140406498404296,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 1.5181974273798706,
+    "nmpc_variants_no_loss": 1.5181974273798706
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.5877226188442942,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.5851105389470823,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9748789891773342,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 0.6366817543765623,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.335204549082833,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.6481979108569775,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 140.38939273312968,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 0.5781005828537802,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0232587475846098,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 0.5798519220506154,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.2630416019514281,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.6166181224141307,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.45525648801201146,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 0.5877226188442942,
+    "nmpc_variants_no_loss": 0.5877226188442942
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.9230136026457537,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.1002201640011575,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6095316655060594,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 1.1002201640011575,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6095316655060594,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.1567468791128153,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 1.8901639640290044,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 1.1002201640011575,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6095316655060594,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 1.0742580184286081,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0594298831881472,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.060332918971592,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7069918543634466,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 0.9230136026457537,
+    "nmpc_variants_no_loss": 0.9230136026457537
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.7062959666082721,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.7698584526024133,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8362149335677664,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 0.7698584526024133,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8362149335677664,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.877069179094471,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 27.549297551900647,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 0.7698584526024133,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8362149335677664,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 0.7491568177865894,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.975541061761418,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.749156636337641,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.9749172086128568,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 0.7062959666082721,
+    "nmpc_variants_no_loss": 0.7062959666082721
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.746880185331537,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.839569334635067,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4622104037880137,
+     "feasible_share_of_bank": 0.078
+    },
+    "plain": {
+     "total_cost": 13.611001622168912,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.042224431988123805,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.8815832618690274,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3610203290909045
+    },
+    "centroid": {
+     "total_cost": 205.6901925551458,
+     "valid": true,
+     "settled": false,
+     "true_rate": 0.09379735857199191
+    },
+    "rhat_only": {
+     "total_cost": 1.9710318273404484,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.27380427053120393,
+     "feasible_share_of_bank": 0.21866666666666668
+    },
+    "no_loss_bound": {
+     "total_cost": 1.799827497816107,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4637949112443031,
+     "feasible_share_of_bank": 0.013
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.1085326481069337,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.1904368875704543,
+     "feasible_share_of_bank": 0.768
+    },
+    "nmpc_variants": 1.746880185331537,
+    "nmpc_variants_no_loss": 1.746880185331537
+   }
+  ],
+  "timing": {
+   "selection_seconds": 2.5189822259999346,
+   "nmpc_seconds": 3.4528634249872994,
+   "nmpc_mean_ms": 8.632158562468248,
+   "nmpc_max_ms": 54.50097999710124
+  }
+ },
+ "quadrotor": {
+  "runs": [
+   {
+    "nmpc": {
+     "total_cost": 1.3246130022082463,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.3987915438828946,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7401742282984916,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 1.4101108757134058,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5279498355996434,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.3891047041936937,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 1.8789837642431682,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 1.4101108757134047,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5279498355996434,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 1.4358959093655743,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5662019458320211,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.4359072390923564,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5662210295183215,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 1.3246130022082463,
+    "nmpc_variants_no_loss": 1.3246130022082463
+   },
+   {
+    "nmpc": {
+     "total_cost": 2.43150432050079,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.4883823183424436,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6504806738827318,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 2.488381853154528,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.650481126024578,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.474152260513462,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 3.0854767066740547,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 2.4883823183424436,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6504806738827318,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 2.5370288202291835,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5280080143405315,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.5279853001414576,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5433236551153753,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 2.43150432050079,
+    "nmpc_variants_no_loss": 2.43150432050079
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.9287517833801497,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.9483843388588871,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5108922000040961,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 0.9483843388588871,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5108922000040961,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.9247309256821462,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 1.0660323624932893,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 0.9483843388588871,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5108922000040961,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 0.9904145513203528,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7006472968435236,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.002653935102868,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6058576629369868,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 0.9287517833801497,
+    "nmpc_variants_no_loss": 0.9287517833801497
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.9287517833801497,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.9224590184380853,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7401742282984916,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 1.066498149917431,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.2708769031298436,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.9247309256821462,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 1.0660323624932893,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 0.9224590184380853,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7401742282984916,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 1.0195134213488977,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6367683976695773,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.0195240940411463,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6368235095144656,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 0.9287517833801497,
+    "nmpc_variants_no_loss": 0.9287517833801497
+   },
+   {
+    "nmpc": {
+     "total_cost": 3.1969747418943144,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 3.367947712834631,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5903270721345566,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 3.37268472215799,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5819617164282364,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 3.3657477857365836,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 4.474358772982149,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 3.37268472215799,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5819617164282364,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 3.4242400005329694,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.534756564822516,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 4.731124817409137,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.16119718027116597,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 3.1969747418943144,
+    "nmpc_variants_no_loss": 3.1969747418943144
+   },
+   {
+    "nmpc": {
+     "total_cost": 2.7350887438324563,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.845753740443578,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6159110463250819,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 2.8609385085846166,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5627013473593945,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.849441782717882,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 3.874677214998915,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 2.855266931193659,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5723088669854134,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 2.831974794616798,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6622644162206908,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.8319693171235407,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.662297820800932,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 2.7350887438324563,
+    "nmpc_variants_no_loss": 2.7350887438324563
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.9416755638189523,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.9601911291038432,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0298975336316714,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 0.9596831888501403,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0429136264346086,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.9732044870281502,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 1.2859599059843545,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 0.9601911291038432,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0298975336316714,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 0.9705723195517626,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.4818407165424204,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.9608779078656208,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.38628570966950804,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 0.9416755638189523,
+    "nmpc_variants_no_loss": 0.9416755638189523
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.1709502512680448,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.238728009390791,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6125931865336233,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 1.238728009390791,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6125931865336233,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.2060619243127966,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 1.3088689020349302,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 1.238728009390791,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6125931865336233,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 1.2864561455728845,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6445585584631668,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 1.286459574767635,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6445290417417149,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 1.1709502512680448,
+    "nmpc_variants_no_loss": 1.1709502512680448
+   },
+   {
+    "nmpc": {
+     "total_cost": 1.8734846927658937,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 1.9704375448035947,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7401742282984916,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 1.9954296896001062,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.26616568740579466,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 1.9464012399829351,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 2.6479827663933215,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 1.9954887391857146,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.26617626013214385,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 2.021418303144712,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5890757102610344,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.0214024437765548,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5890950496417694,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 1.8734846927658937,
+    "nmpc_variants_no_loss": 1.8734846927658937
+   },
+   {
+    "nmpc": {
+     "total_cost": 2.416189796487687,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.799802967954087,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3198766473882984,
+     "feasible_share_of_bank": 0.3903333333333333
+    },
+    "plain": {
+     "total_cost": 2.8080240482484355,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3170621879451491,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.4585067994165923,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7045174561651671
+    },
+    "centroid": {
+     "total_cost": 2.9967876500463735,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1577931700642359
+    },
+    "rhat_only": {
+     "total_cost": 2.799802967954087,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3198766473882984,
+     "feasible_share_of_bank": 0.6123333333333333
+    },
+    "no_loss_bound": {
+     "total_cost": 2.4817640549781808,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6524221652083548,
+     "feasible_share_of_bank": 0.318
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.48176864518377,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6525410405044426,
+     "feasible_share_of_bank": 0.7503333333333333
+    },
+    "nmpc_variants": 2.416189796487687,
+    "nmpc_variants_no_loss": 2.416189796487687
+   }
+  ],
+  "timing": {
+   "selection_seconds": 2.2412565179984085,
+   "nmpc_seconds": 3.9179124221700476,
+   "nmpc_mean_ms": 9.79478105542512,
+   "nmpc_max_ms": 19.98512000136543
+  }
+ },
+ "double_pendulum": {
+  "runs": [
+   {
+    "nmpc": {
+     "total_cost": 6.220642017525453,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 5.699579097230053,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5900096164413755,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 5.699579097230053,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5900096164413755,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 4.990873062053886,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 6.6858040628987885,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 5.699579097230053,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5900096164413755,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 4.915647061490192,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6865278702955867,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 5.494408054634783,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5193628795256362,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 6.220642017525453,
+    "nmpc_variants_no_loss": 6.220642017525453
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.28816393397967327,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.24479441885294217,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3153589580043895,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 0.24479441885294217,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3153589580043895,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.23483962445352038,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 0.3412057592717023,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 0.24480914314714816,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.31536191258472346,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 0.23270457613010911,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7816990464515851,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.23320175589819203,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8022827086272004,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 0.28816393397967327,
+    "nmpc_variants_no_loss": 0.28816393397967327
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.07074776436043272,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.06650102980921528,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6469767154366655,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 0.06650102980921528,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6469767154366655,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.06822606502875869,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 0.07215767262139687,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 0.06649991766731123,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6470300928430701,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 0.06775343416582316,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6436867619675066,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.06642718426256523,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.649106882854446,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 0.07074776436043272,
+    "nmpc_variants_no_loss": 0.07074776436043272
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.33402284273397953,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.29568539445551684,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8091890513999744,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 0.30117672357653363,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.29534808654713784,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 0.5103729550487605,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 0.30117672357653363,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 0.3163029252279977,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6719576062926436,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.3144069005979402,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6672307323750601,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 0.33402284273397953,
+    "nmpc_variants_no_loss": 0.33402284273397953
+   },
+   {
+    "nmpc": {
+     "total_cost": 2.35521359988918,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.244380890114703,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3648578722450764,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 2.244380890114703,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3648578722450764,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.114716721792515,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 3.2931817210574006,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 2.244380890114703,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3648578722450764,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 2.1866561143432905,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.49988603295151746,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.0521092920442405,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7716793519868409,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 2.35521359988918,
+    "nmpc_variants_no_loss": 2.35521359988918
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.8605389398413243,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.8067208952494849,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8149959012867656,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 0.8113165897132739,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.8068006000654085,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 1.4399293303491154,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 0.8113165897132739,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 0.7909356744068409,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5960253873406003,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.797785662953848,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.0668793015038178,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 0.8605389398413243,
+    "nmpc_variants_no_loss": 0.8605389398413243
+   },
+   {
+    "nmpc": {
+     "total_cost": 3.0585668339737007,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 2.4048712145020636,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7960438198320074,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 2.4358443603982693,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.4067970921318858,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 3.3823315949319834,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 2.4358443603982693,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 2.380106451738751,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6958175571877305,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 2.3800688655101085,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6958363651818464,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 3.0585668339737007,
+    "nmpc_variants_no_loss": 3.0585668339737007
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.7224222331436734,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.5338088046505175,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7593461056547872,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 0.5314793861019461,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.5314614212163276,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 0.6032552826751951,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 0.5314793861019461,
+     "valid": true,
+     "settled": true,
+     "true_rate": -1.1748102290579623,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 0.5321521378893153,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.6241835971512854,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.528791133529482,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.392009177499121,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 0.7224222331436734,
+    "nmpc_variants_no_loss": 0.7224222331436734
+   },
+   {
+    "nmpc": {
+     "total_cost": 3.6522909301836144,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 3.3548790610624346,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3548010036075574,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 3.3548790610624346,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3548010036075574,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 2.954819028884309,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 4.274173834002441,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 3.3548790610624346,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3548010036075574,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 2.9981361528554427,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.5890792633377726,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 3.1818747837930523,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.3865576693515044,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 3.6522909301836144,
+    "nmpc_variants_no_loss": 3.6522909301836144
+   },
+   {
+    "nmpc": {
+     "total_cost": 0.4895935742684426,
+     "valid": true,
+     "settled": true
+    },
+    "ours": {
+     "total_cost": 0.3501423863897427,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8806460504366249,
+     "feasible_share_of_bank": 0.48233333333333334
+    },
+    "plain": {
+     "total_cost": 0.3501423863897427,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8806460504366249,
+     "feasible_share_of_bank": 1.0
+    },
+    "single": {
+     "total_cost": 0.3608506493954652,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.789887912084793
+    },
+    "centroid": {
+     "total_cost": 0.355589092594927,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8437708261739796
+    },
+    "rhat_only": {
+     "total_cost": 0.3500309236387288,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.8825641739351429,
+     "feasible_share_of_bank": 0.61
+    },
+    "no_loss_bound": {
+     "total_cost": 0.355235308943903,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.7584618012869142,
+     "feasible_share_of_bank": 0.221
+    },
+    "no_loss_rhat": {
+     "total_cost": 0.3545684696747849,
+     "valid": true,
+     "settled": true,
+     "true_rate": -0.764642002927724,
+     "feasible_share_of_bank": 0.7663333333333333
+    },
+    "nmpc_variants": 0.4895935742684426,
+    "nmpc_variants_no_loss": 0.4895935742684426
+   }
+  ],
+  "timing": {
+   "selection_seconds": 2.860021054992103,
+   "nmpc_seconds": 240.31899490101205,
+   "nmpc_mean_ms": 600.7974872525301,
+   "nmpc_max_ms": 1781.920188004733
+  }
+ }
+}

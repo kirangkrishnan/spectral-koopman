@@ -1,0 +1,122 @@
+{
+ "vdp/spectral": {
+  "share_first": 0.618975,
+  "share": 0.618975,
+  "q_first": 0.1770718290438822,
+  "q": 0.16112960988451985,
+  "audit_failures": 0,
+  "audit_passed": true,
+  "check_coverage": 0.955,
+  "check_in_region": 960,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9673333333333334
+ },
+ "arm/spectral": {
+  "share_first": 0.075335,
+  "share": 0.074035,
+  "q_first": 0.14921872567157557,
+  "q": 0.15188674097920662,
+  "audit_failures": 1,
+  "audit_passed": true,
+  "check_coverage": 0.947,
+  "check_in_region": 279,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9476666666666667
+ },
+ "cartpole/spectral": {
+  "share_first": 0.111115,
+  "share": 0.099105,
+  "q_first": 0.3967894263410794,
+  "q": 0.4439105394119913,
+  "audit_failures": 0,
+  "audit_passed": true,
+  "check_coverage": 0.943,
+  "check_in_region": 391,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.925
+ },
+ "quadrotor/spectral": {
+  "share_first": 0.70953,
+  "share": 0.70008,
+  "q_first": 0.25045963983293484,
+  "q": 0.2734331125295255,
+  "audit_failures": 0,
+  "audit_passed": true,
+  "check_coverage": 0.945,
+  "check_in_region": 869,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9296666666666666
+ },
+ "double_pendulum/spectral": {
+  "share_first": 0.242305,
+  "share": 0.242285,
+  "q_first": 0.2512468051470913,
+  "q": 0.25192031598066755,
+  "audit_failures": 0,
+  "audit_passed": true,
+  "check_coverage": 0.951,
+  "check_in_region": 969,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9496666666666667
+ },
+ "vdp/no_loss": {
+  "share_first": 0.92323,
+  "share": 0.921755,
+  "q_first": 0.12815342621687886,
+  "q": 0.1336962069297618,
+  "audit_failures": 0,
+  "audit_passed": true,
+  "check_coverage": 0.944,
+  "check_in_region": 965,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9396666666666667
+ },
+ "arm/no_loss": {
+  "share_first": 0.074355,
+  "share": 0.07375,
+  "q_first": 0.17633986628592835,
+  "q": 0.17802652093413052,
+  "audit_failures": 0,
+  "audit_passed": true,
+  "check_coverage": 0.952,
+  "check_in_region": 274,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9493333333333334
+ },
+ "cartpole/no_loss": {
+  "share_first": 0.08499,
+  "share": 0.07949,
+  "q_first": 0.43138527123806947,
+  "q": 0.45034064941975327,
+  "audit_failures": 1,
+  "audit_passed": true,
+  "check_coverage": 0.935,
+  "check_in_region": 323,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.945
+ },
+ "quadrotor/no_loss": {
+  "share_first": 0.677965,
+  "share": 0.67655,
+  "q_first": 0.2726779641765886,
+  "q": 0.27641261831240493,
+  "audit_failures": 0,
+  "audit_passed": true,
+  "check_coverage": 0.95,
+  "check_in_region": 886,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9473333333333334
+ },
+ "double_pendulum/no_loss": {
+  "share_first": 0.355115,
+  "share": 0.355115,
+  "q_first": 0.2542077649621146,
+  "q": 0.24841001795355577,
+  "audit_failures": 2,
+  "audit_passed": false,
+  "check_coverage": 0.955,
+  "check_in_region": 980,
+  "check_in_region_above_15": 0,
+  "first_check_coverage": 0.9546666666666667
+ }
+}

@@ -1,0 +1,652 @@
+{
+ "vdp": {
+  "pole_errors": {
+   "spectral": {
+    "median": 0.014040493634237983,
+    "p90": 0.025401464973436223,
+    "failed": 0,
+    "count": 500
+   },
+   "regressor": {
+    "median": 0.009167109864356385,
+    "p90": 0.01577212578536842,
+    "failed": 0,
+    "count": 500
+   }
+  },
+  "pole_bounds": {
+   "spectral": {
+    "count": {
+     "fit": 9893,
+     "calibration": 5935,
+     "audit": 3958
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 1.3156560124642325,
+     "global_bound": 0.0427621340120633,
+     "bound_median": 0.03137260922951835,
+     "bound_p90": 0.051000529024290746,
+     "error_median": 0.008710491451349056,
+     "nonfinite_labels": 0,
+     "audit_misses": 121,
+     "audit_coverage": 0.9694290045477514,
+     "miss_rate_ci95": [
+      0.026202765197596862,
+      0.035463856844042796
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 25,
+     "audit_coverage_vs_exact": 0.9936836786255685,
+     "audit_misses_global_bound": 111
+    },
+    "damping": {
+     "q_log": 1.271851665158239,
+     "global_bound": 0.016371282771833973,
+     "bound_median": 0.015320801552191884,
+     "bound_p90": 0.02041979533420817,
+     "error_median": 0.0035238448568661596,
+     "nonfinite_labels": 0,
+     "audit_misses": 84,
+     "audit_coverage": 0.9787771601819101,
+     "miss_rate_ci95": [
+      0.017593083606628066,
+      0.02539117721453203
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 25,
+     "audit_coverage_vs_exact": 0.9936836786255685,
+     "audit_misses_global_bound": 88
+    }
+   },
+   "regressor": {
+    "count": {
+     "fit": 9893,
+     "calibration": 5935,
+     "audit": 3958
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 1.3347248966886514,
+     "global_bound": 0.0473936405719253,
+     "bound_median": 0.034049949852227965,
+     "bound_p90": 0.055208517259049565,
+     "error_median": 0.008936907485455503,
+     "nonfinite_labels": 0,
+     "audit_misses": 110,
+     "audit_coverage": 0.9722081859525012,
+     "miss_rate_ci95": [
+      0.023628561716436146,
+      0.03248364529298002
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 6,
+     "audit_coverage_vs_exact": 0.9984840828701365,
+     "audit_misses_global_bound": 100
+    },
+    "damping": {
+     "q_log": 1.2542272282638622,
+     "global_bound": 0.01653131201497049,
+     "bound_median": 0.014633386896329337,
+     "bound_p90": 0.020766719681484438,
+     "error_median": 0.0034444596160240204,
+     "nonfinite_labels": 0,
+     "audit_misses": 102,
+     "audit_coverage": 0.9742294087923193,
+     "miss_rate_ci95": [
+      0.021763494604722013,
+      0.030309228490977405
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 24,
+     "audit_coverage_vs_exact": 0.9939363314805457,
+     "audit_misses_global_bound": 89
+    }
+   }
+  },
+  "trajectory": {
+   "spectral": {
+    "median": 3.8457882543177906,
+    "p90": 6.985744897120834,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 1.0
+   },
+   "regressor": {
+    "median": 15.965331493584884,
+    "p90": 29.307622449381743,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 0.435
+   }
+  }
+ },
+ "arm": {
+  "pole_errors": {
+   "spectral": {
+    "median": 0.028731130379846134,
+    "p90": 0.05021987498268804,
+    "failed": 0,
+    "count": 500
+   },
+   "regressor": {
+    "median": 0.017326850684229067,
+    "p90": 0.030568716631079823,
+    "failed": 0,
+    "count": 500
+   }
+  },
+  "pole_bounds": {
+   "spectral": {
+    "count": {
+     "fit": 9741,
+     "calibration": 5844,
+     "audit": 3897
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 0.9025054296561805,
+     "global_bound": 0.0630228454053462,
+     "bound_median": 0.06144228207746105,
+     "bound_p90": 0.10828343319899715,
+     "error_median": 0.026809708485906802,
+     "nonfinite_labels": 0,
+     "audit_misses": 104,
+     "audit_coverage": 0.9733128047215807,
+     "miss_rate_ci95": [
+      0.02257780137899406,
+      0.03133522345086582
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 72,
+     "audit_coverage_vs_exact": 0.9815242494226328,
+     "audit_misses_global_bound": 75
+    },
+    "damping": {
+     "q_log": 1.4111678861124446,
+     "global_bound": 0.05773756021884535,
+     "bound_median": 0.05591571643868266,
+     "bound_p90": 0.1236261735730617,
+     "error_median": 0.015515066407825462,
+     "nonfinite_labels": 0,
+     "audit_misses": 88,
+     "audit_coverage": 0.9774185270721067,
+     "miss_rate_ci95": [
+      0.01880672644064151,
+      0.026901191009050494
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 120,
+     "audit_coverage_vs_exact": 0.9692070823710547,
+     "audit_misses_global_bound": 104
+    }
+   },
+   "regressor": {
+    "count": {
+     "fit": 9741,
+     "calibration": 5844,
+     "audit": 3897
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 0.9248471913619776,
+     "global_bound": 0.04020126404338803,
+     "bound_median": 0.03988903896921509,
+     "bound_p90": 0.058724833971854205,
+     "error_median": 0.01607757502193954,
+     "nonfinite_labels": 0,
+     "audit_misses": 69,
+     "audit_coverage": 0.9822940723633564,
+     "miss_rate_ci95": [
+      0.014374031071442372,
+      0.021591075312300024
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 15,
+     "audit_coverage_vs_exact": 0.9961508852963818,
+     "audit_misses_global_bound": 91
+    },
+    "damping": {
+     "q_log": 2.142951597253441,
+     "global_bound": 0.08217127544898128,
+     "bound_median": 0.039282604571403305,
+     "bound_p90": 0.1283328378857342,
+     "error_median": 0.004110570110046119,
+     "nonfinite_labels": 0,
+     "audit_misses": 102,
+     "audit_coverage": 0.9738260200153964,
+     "miss_rate_ci95": [
+      0.02210482616785809,
+      0.030782537146311566
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 87,
+     "audit_coverage_vs_exact": 0.9776751347190147,
+     "audit_misses_global_bound": 98
+    }
+   }
+  },
+  "trajectory": {
+   "spectral": {
+    "median": 9.021474529190641,
+    "p90": 10.900590193953532,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 1.0
+   },
+   "regressor": {
+    "median": 26.882680038633325,
+    "p90": 33.99829866956348,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 0.0
+   }
+  }
+ },
+ "quadrotor": {
+  "pole_errors": {
+   "spectral": {
+    "median": 0.050331184926842354,
+    "p90": 0.1540802046516634,
+    "failed": 0,
+    "count": 500
+   },
+   "regressor": {
+    "median": 0.03800998480136516,
+    "p90": 0.08352767760823591,
+    "failed": 0,
+    "count": 500
+   }
+  },
+  "pole_bounds": {
+   "spectral": {
+    "count": {
+     "fit": 9756,
+     "calibration": 5853,
+     "audit": 3904
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 1.3669002590751225,
+     "global_bound": 0.28899408285268013,
+     "bound_median": 0.17299049876205094,
+     "bound_p90": 0.42627889141948055,
+     "error_median": 0.055328525364135794,
+     "nonfinite_labels": 0,
+     "audit_misses": 102,
+     "audit_coverage": 0.9738729508196722,
+     "miss_rate_ci95": [
+      0.0220651141209241,
+      0.030727473556508223
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 88,
+     "audit_coverage_vs_exact": 0.9774590163934426,
+     "audit_misses_global_bound": 86
+    },
+    "damping": {
+     "q_log": 1.4947967337883656,
+     "global_bound": 0.1541565177099926,
+     "bound_median": 0.0712112249239076,
+     "bound_p90": 0.20253009969602317,
+     "error_median": 0.01636135445654744,
+     "nonfinite_labels": 0,
+     "audit_misses": 104,
+     "audit_coverage": 0.9733606557377049,
+     "miss_rate_ci95": [
+      0.02253723874111913,
+      0.03127917242930154
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 114,
+     "audit_coverage_vs_exact": 0.9707991803278688,
+     "audit_misses_global_bound": 90
+    }
+   },
+   "regressor": {
+    "count": {
+     "fit": 9756,
+     "calibration": 5853,
+     "audit": 3904
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 0.9483896712636577,
+     "global_bound": 0.1077094644171919,
+     "bound_median": 0.08746495775962777,
+     "bound_p90": 0.1693737949056895,
+     "error_median": 0.03741647530871797,
+     "nonfinite_labels": 0,
+     "audit_misses": 123,
+     "audit_coverage": 0.9684938524590164,
+     "miss_rate_ci95": [
+      0.027041634348452737,
+      0.0365013492434137
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 124,
+     "audit_coverage_vs_exact": 0.9682377049180327,
+     "audit_misses_global_bound": 104
+    },
+    "damping": {
+     "q_log": 1.4175936442817423,
+     "global_bound": 0.05957122397552411,
+     "bound_median": 0.029911403610512935,
+     "bound_p90": 0.10474972202754561,
+     "error_median": 0.007247939086288999,
+     "nonfinite_labels": 0,
+     "audit_misses": 93,
+     "audit_coverage": 0.9761782786885246,
+     "miss_rate_ci95": [
+      0.019946022998122526,
+      0.028239436877452548
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 106,
+     "audit_coverage_vs_exact": 0.9728483606557377,
+     "audit_misses_global_bound": 96
+    }
+   }
+  },
+  "trajectory": {
+   "spectral": {
+    "median": 4.946889430404067,
+    "p90": 7.745336391175508,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 1.0
+   },
+   "regressor": {
+    "median": 24.722071259400376,
+    "p90": 32.71261235946624,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 0.035
+   }
+  }
+ },
+ "double_pendulum": {
+  "pole_errors": {
+   "spectral": {
+    "median": 0.03483272355788593,
+    "p90": 0.09885649394792911,
+    "failed": 0,
+    "count": 500
+   },
+   "regressor": {
+    "median": 0.01513572716062582,
+    "p90": 0.05520683577964965,
+    "failed": 0,
+    "count": 500
+   }
+  },
+  "pole_bounds": {
+   "spectral": {
+    "count": {
+     "fit": 9891,
+     "calibration": 5934,
+     "audit": 3958
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 1.243799183653716,
+     "global_bound": 0.20994053917956856,
+     "bound_median": 0.12927419930222556,
+     "bound_p90": 0.3251143174935595,
+     "error_median": 0.04489253997260828,
+     "nonfinite_labels": 0,
+     "audit_misses": 115,
+     "audit_coverage": 0.9709449216776149,
+     "miss_rate_ci95": [
+      0.024797334638467606,
+      0.03383959025883245
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 35,
+     "audit_coverage_vs_exact": 0.9911571500757959,
+     "audit_misses_global_bound": 93
+    },
+    "damping": {
+     "q_log": 1.411750439550039,
+     "global_bound": 0.10484389333231409,
+     "bound_median": 0.05251967276586793,
+     "bound_p90": 0.16794368184811456,
+     "error_median": 0.012341962619422431,
+     "nonfinite_labels": 0,
+     "audit_misses": 98,
+     "audit_coverage": 0.9752400202122284,
+     "miss_rate_ci95": [
+      0.0208334407390041,
+      0.02921957447232905
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 72,
+     "audit_coverage_vs_exact": 0.9818089944416372,
+     "audit_misses_global_bound": 102
+    }
+   },
+   "regressor": {
+    "count": {
+     "fit": 9891,
+     "calibration": 5934,
+     "audit": 3958
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 1.340023813640884,
+     "global_bound": 0.13651767018636318,
+     "bound_median": 0.09431924637885783,
+     "bound_p90": 0.2004953831467763,
+     "error_median": 0.027274822749288274,
+     "nonfinite_labels": 0,
+     "audit_misses": 112,
+     "audit_coverage": 0.9717028802425467,
+     "miss_rate_ci95": [
+      0.024095796776258043,
+      0.03302629393085813
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 22,
+     "audit_coverage_vs_exact": 0.9944416371905003,
+     "audit_misses_global_bound": 94
+    },
+    "damping": {
+     "q_log": 1.6021449141456534,
+     "global_bound": 0.06855826367739576,
+     "bound_median": 0.031721254776998324,
+     "bound_p90": 0.10222348581681419,
+     "error_median": 0.005099039622161572,
+     "nonfinite_labels": 0,
+     "audit_misses": 91,
+     "audit_coverage": 0.9770085901970692,
+     "miss_rate_ci95": [
+      0.01921021015553126,
+      0.027308380157946847
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 59,
+     "audit_coverage_vs_exact": 0.9850934815563416,
+     "audit_misses_global_bound": 116
+    }
+   }
+  },
+  "trajectory": {
+   "spectral": {
+    "median": 4.620914041109447,
+    "p90": 7.042136215056297,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 1.0
+   },
+   "regressor": {
+    "median": 14.045755703785055,
+    "p90": 18.85392953393392,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 0.59
+   }
+  }
+ },
+ "cartpole": {
+  "pole_errors": {
+   "spectral": {
+    "median": 0.04898516236921792,
+    "p90": 0.1803398641180512,
+    "failed": 0,
+    "count": 500
+   },
+   "regressor": {
+    "median": 0.008013730820080844,
+    "p90": 0.019508199652165648,
+    "failed": 0,
+    "count": 500
+   }
+  },
+  "pole_bounds": {
+   "spectral": {
+    "count": {
+     "fit": 8962,
+     "calibration": 5377,
+     "audit": 3586
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 1.456469729180326,
+     "global_bound": 0.6661126793387518,
+     "bound_median": 0.21714322899217975,
+     "bound_p90": 1.3398666464987568,
+     "error_median": 0.06317764276576418,
+     "nonfinite_labels": 0,
+     "audit_misses": 82,
+     "audit_coverage": 0.9771332961517011,
+     "miss_rate_ci95": [
+      0.01891285497980734,
+      0.027413252085657244
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 77,
+     "audit_coverage_vs_exact": 0.9785276073619632,
+     "audit_misses_global_bound": 98
+    },
+    "damping": {
+     "q_log": 1.74586417368327,
+     "global_bound": 0.9439255141761711,
+     "bound_median": 0.09204297034913222,
+     "bound_p90": 0.43145996882905935,
+     "error_median": 0.018214049333761556,
+     "nonfinite_labels": 0,
+     "audit_misses": 65,
+     "audit_coverage": 0.9818739542665923,
+     "miss_rate_ci95": [
+      0.014617054428649169,
+      0.02223652985502272
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 60,
+     "audit_coverage_vs_exact": 0.9832682654768544,
+     "audit_misses_global_bound": 75
+    }
+   },
+   "regressor": {
+    "count": {
+     "fit": 8962,
+     "calibration": 5377,
+     "audit": 3586
+    },
+    "alpha_total": 0.05,
+    "alpha_each": 0.025,
+    "seed": 2026,
+    "audit_limit_each": 0.05,
+    "population": "uniform on {theta in R : r_hat <= 0, kappa <= kappa_max}",
+    "rate": {
+     "q_log": 1.4528384629265756,
+     "global_bound": 0.07750990881258499,
+     "bound_median": 0.06033396342854318,
+     "bound_p90": 0.08892938600226165,
+     "error_median": 0.013377644637617585,
+     "nonfinite_labels": 0,
+     "audit_misses": 85,
+     "audit_coverage": 0.9762967094255438,
+     "miss_rate_ci95": [
+      0.019676217484307732,
+      0.02832160872786999
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 11,
+     "audit_coverage_vs_exact": 0.9969325153374233,
+     "audit_misses_global_bound": 102
+    },
+    "damping": {
+     "q_log": 3.104454886087421,
+     "global_bound": 1.6003046751276955,
+     "bound_median": 0.3058283041563764,
+     "bound_p90": 4.216485617436007,
+     "error_median": 0.01024457896535641,
+     "nonfinite_labels": 0,
+     "audit_misses": 83,
+     "audit_coverage": 0.9768544339096487,
+     "miss_rate_ci95": [
+      0.01916715241144771,
+      0.027716191706448224
+     ],
+     "audit_passed": true,
+     "audit_misses_vs_exact": 82,
+     "audit_coverage_vs_exact": 0.9771332961517011,
+     "audit_misses_global_bound": 105
+    }
+   }
+  },
+  "trajectory": {
+   "spectral": {
+    "median": 6.253495152001554,
+    "p90": 8.279585119323976,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 0.995
+   },
+   "regressor": {
+    "median": 13.269579509904322,
+    "p90": 25.269646825315498,
+    "failed": 0,
+    "count": 200,
+    "share_le_15": 0.605
+   }
+  }
+ }
+}
