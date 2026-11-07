@@ -1,7 +1,12 @@
 # spectral-koopman
 
-Code for "Spectrally Consistent Feedback-Parameterized Koopman Models with Calibrated Uncertainty"
-(K. G. Krishnan, S. A. Deka, L4DC 2027).
+<p align="center">
+  <img src="media/double_pendulum.gif" width="900" alt="Double pendulum on a cart balanced by the one-shot feedback and by NMPC">
+</p>
+<p align="center">
+  Double pendulum on a cart (MuJoCo): feedback with a fixed theta chosen once from the model, vs NMPC.
+  <a href="media/double_pendulum.mp4">mp4</a>
+</p>
 
 The model is a Koopman autoencoder whose encoder, operator and decoder depend on the feedback parameters theta.
 We add a spectral-consistency loss so that the poles read out from the model (M = V^+ K V) match identified
